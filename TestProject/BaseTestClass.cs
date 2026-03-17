@@ -20,7 +20,6 @@ namespace TestProject
 
         protected const string folderName1 = "folder1";
         protected const string folderName2 = "folder2";
-        protected const string folderName3 = "folder3";
 
         [TestInitialize]
         public void Setup()
