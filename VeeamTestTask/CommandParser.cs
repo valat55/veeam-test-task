@@ -16,7 +16,7 @@ namespace VeeamTestTask
             [Option('l', "log", Required = true, HelpText = "Path to log file")]
             public string LogfileName { get; set; }
 
-            [Option('i', "interval", Required = true, HelpText = "Interval for the syncing")]
+            [Option('i', "interval", Required = true, HelpText = "Interval for the syncing(seconds)")]
             public int Interval { get; set; }
         }
 

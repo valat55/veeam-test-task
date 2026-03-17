@@ -57,7 +57,6 @@ namespace TestProject
 
             var model = new FolderModel(_src, _dest);
 
-            // stejná velikost, jiný obsah
             File.WriteAllText(Path.Join(_src.FullName, fileName1), "bbbb");
 
             var result = model.Sync();

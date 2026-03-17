@@ -83,7 +83,6 @@ namespace VeeamTestTask
             foreach (var subfolder in SubFolders)
                 result += subfolder.Sync();
 
-            // add až po průchodu existujícím stromem
             result += AddNewFiles(plan.FilesToAdd);
             result += AddNewSubfolders(plan.FoldersToAdd);
 
