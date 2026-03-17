@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VeeamTestTask": {
+      "commandName": "Project",
+      "commandLineArgs": "-s \"C:\\Users\\nufa0\\source\\repos\\veeamSource\" -d \"C:\\Users\\nufa0\\source\\repos\\veeamDest\" -l \"C:\\Users\\nufa0\\source\\repos\\log.txt\" -i 10"
+    }
+  }
+}
